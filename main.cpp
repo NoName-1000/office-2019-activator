@@ -14,12 +14,9 @@ int main() {
 	std::wcout<< "+     Aktywator Office 2019     +\n";
 	std::wcout<< "=================================\n";
 	std::wcout<< "\n";
-	std::wcout<< "Autor:          NoName_1000\n";
-	std::wcout<< "Wersja:         v1.1 RTM\n";
-	std::wcout<< "Program stworzony dla uczniów ZS2 W Pabianicach (Elektryka)\n";
 	std::wcout<< "";
 	if(office_kms) {
-		std::wcout<< "‹ Naciœnij ENTER aby rozpocz¹æ aktywacje! ›\n";
+		std::wcout<< "â€¹ NaciÅ“nij ENTER aby rozpoczÂ¹Ã¦ aktywacje! â€º\n";
 	} else {
 		std::wcout<< "! Office 2019 nie jest zainstalowany na tym komputerze. ! \n";
 		cin.get();
@@ -86,8 +83,8 @@ int main() {
 	std::wcout<< "+     Aktywator Office 2019     +\n";
 	std::wcout<< "=================================\n";
 	std::wcout << "\n";
-	std::wcout << "‹ Aktywacja zosta³a zakoñczona! ›\n\n";
-	std::wcout << "Naciœnij ENTER aby zamkn¹æ program!";
+	std::wcout << "â€¹ Aktywacja zostaÂ³a zakoÃ±czona! â€º\n\n";
+	std::wcout << "NaciÅ“nij ENTER aby zamknÂ¹Ã¦ program!";
 	cin.get();
 
 	return 0;
